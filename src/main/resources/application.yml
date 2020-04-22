@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: webflux-coroutine-eureka-template
+  profiles:
+    active:
+      - dev
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+springdoc:
+  swagger-ui:
+    display-operation-id: true

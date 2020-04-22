@@ -1,0 +1,9 @@
+eureka:
+  client:
+    enabled: false
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5p): %m [%t]%n %clr(%replace(%caller{1}){"Caller\+\d+",""}){cyan}'
+  level:
+    root: info
+    com.example.demo: debug
